@@ -23,7 +23,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-  "typer[all]==0.12.5",
+  "typer[all]==0.14.0",
   "requests==2.32.3",
   "python-dotenv==1.0.1",
   "PyYAML==6.0.2",
