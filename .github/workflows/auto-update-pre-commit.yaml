@@ -45,7 +45,7 @@ jobs:
         run: pre-commit autoupdate
 
       - name: Create PR
-        uses: peter-evans/create-pull-request@5354f85616108575685a73a0ddd2f67c26a441c3 # v5.0.2
+        uses: peter-evans/create-pull-request@a22a0ddc2127a4161a9f144623d1e51be98d81aa # v5.0.2
         with:
           token: ${{ secrets.SEYLUBOT_PAT }}
           committer: GitHub <noreply@github.com>
